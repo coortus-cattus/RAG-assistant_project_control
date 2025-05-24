@@ -1,0 +1,12 @@
+fastapi==0.115.11  # Фреймворк для API
+uvicorn==0.34.0  # ASGI-сервер для FastAPI
+orjson==3.10.15  # Быстрая сериализация JSON
+pydantic==2.10.6  # Валидация данных и модели
+pydantic-settings==2.8.1  # Настройки через .env
+python-dotenv==1.0.1  # Загрузка .env
+chromadb==0.6.3  # Векторное хранилище
+sentence-transformers==3.2.1  # Эмбеддинги для ChromaDB
+py-trello==0.19.0  # Клиент для Trello API
+streamlit==1.39.0  # Веб-интерфейс для чата
+httpx==0.28.1  # Асинхронные HTTP-запросы для Streamlit
+pydantic-ai @ git+https://github.com/pydantic/pydantic-ai.git@13ece6d669bf37a7a2410567c8f60844d30a37f6  # LLM (Ollama)
